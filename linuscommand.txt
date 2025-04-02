@@ -1,0 +1,121 @@
+
+ADMIN@DESKTOP-0FL3R8K MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ KG.zip
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{42264366-7836-11ec-8bde-08002719433c}.TM.blf
+ NTUSER.DAT{42264366-7836-11ec-8bde-08002719433c}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{42264366-7836-11ec-8bde-08002719433c}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ Prep/
+ PrintHood@
+ Python/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ admin/
+ eclipse/
+ eclipse-workspace/
+ hello.c
+ html/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ student/
+ wekafiles/
+
+ADMIN@DESKTOP-0FL3R8K MINGW64 ~
+$ cd python
+
+ADMIN@DESKTOP-0FL3R8K MINGW64 ~/python
+$ mkdir class
+
+ADMIN@DESKTOP-0FL3R8K MINGW64 ~/python
+$ cd class
+
+ADMIN@DESKTOP-0FL3R8K MINGW64 ~/python/class
+$ mkdir testing
+
+ADMIN@DESKTOP-0FL3R8K MINGW64 ~/python/class
+$ rmdir testing
+
+ADMIN@DESKTOP-0FL3R8K MINGW64 ~/python/class
+$ cp file.txt file1.txt
+
+ADMIN@DESKTOP-0FL3R8K MINGW64 ~/python/class
+$ rm file.txt
+
+ADMIN@DESKTOP-0FL3R8K MINGW64 ~/python/class
+$ mv file1.txt updated.txt
+
+ADMIN@DESKTOP-0FL3R8K MINGW64 ~/python/class
+$ touch sample.txt
+
+ADMIN@DESKTOP-0FL3R8K MINGW64 ~/python/class
+$ cat sample.txt
+
+ADMIN@DESKTOP-0FL3R8K MINGW64 ~/python/class
+$ cat updated.txt
+Hello good morning
+
+ADMIN@DESKTOP-0FL3R8K MINGW64 ~/python/class
+$ ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+      837     770     837      19336  pty0      197610 12:40:33 /usr/bin/ps
+      769       1     769      14264  ?         197610 12:34:41 /usr/bin/mintty
+      770     769     770       9372  pty0      197610 12:34:41 /usr/bin/bash
+
+ADMIN@DESKTOP-0FL3R8K MINGW64 ~/python/class
+$ man ls
+bash: man: command not found
+
+ADMIN@DESKTOP-0FL3R8K MINGW64 ~/python/class
+$ cat updated.txt | grep "oo"
+Hello good morning
+
+ADMIN@DESKTOP-0FL3R8K MINGW64 ~/python/class
+$ echo "hello world"
+hello world
+
+ADMIN@DESKTOP-0FL3R8K MINGW64 ~/python/class
+$ sort updated.txt
+Are you?
+Hello good morning
+
+ADMIN@DESKTOP-0FL3R8K MINGW64 ~/python/class
+$ cal
+bash: cal: command not found
+
+ADMIN@DESKTOP-0FL3R8K MINGW64 ~/python/class
+$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  141G  110G   31G  78% /
+D:                     98G   97M   98G   1% /d
+
+ADMIN@DESKTOP-0FL3R8K MINGW64 ~/python/class
+$ df
+Filesystem           1K-blocks      Used Available Use% Mounted on
+C:/Program Files/Git 146996760 114520000  32476760  78% /
+D:                   102398972     98552 102300420   1% /d
+
+ADMIN@DESKTOP-0FL3R8K MINGW64 ~/python/class
